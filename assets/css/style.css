@@ -111,6 +111,16 @@ footer {
   user-select: all;
 }
 
+.code-card .header {
+  border-radius: 8px;
+  transition: all 0.5s ease-in-out;
+}
+
+.code-card:hover,
+.code-card:hover .header {
+  box-shadow: inset 0px 0px 8px rgba(232, 102, 236, 1), 0 0 15px rgba(232, 102, 236, 1);
+}
+
 @media screen and (min-width: 768px) {
   .column {
     flex: 0 0 50%;
